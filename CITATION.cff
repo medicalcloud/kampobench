@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "KampoBench: A Benchmark for Evaluating Large Language Models on Japanese Kampo Medicine"
+version: 1.0.0
+date-released: 2026-09-22
+url: "https://github.com/medicalcloud/kampobench"
+repository-code: "https://github.com/medicalcloud/kampobench"
+authors:
+  - family-names: "Takata"
+    given-names: "Hideaki"
+    orcid: "https://orcid.org/0009-0004-4269-0692"
+    affiliation: "Department of Kampo Medicine, Tokai University School of Medicine"
+
+# authors はこのソフトウェア（simple-evals のフォーク）の作者である。
+# データセットの著者と監修者は Zenodo のレコードを参照のこと。
+
+abstract: >-
+  KampoBench is a benchmark for evaluating Large Language Models (LLMs) 
+  on Japanese Kampo (traditional) medicine scenarios. Built on OpenAI's 
+  HealthBench framework, it provides a comprehensive evaluation suite for 
+  assessing LLM performance in traditional Japanese medical contexts.
+  
+  The dataset (74 scenarios, 310 rubric criteria) was drafted by a large language
+  model and then reviewed and revised by multiple board-certified Kampo physicians.
+  It is distributed separately under CC BY 4.0; this repository contains the
+  evaluation code. See DATA_LICENSE.md and jsonl/kampobench_provenance.md.
+keywords:
+  - "large language models"
+  - "medical AI"
+  - "kampo medicine"
+  - "traditional medicine"
+  - "benchmark"
+  - "evaluation"
+  - "Japanese"
+license: MIT
+license-url: "https://spdx.org/licenses/MIT.html"
+preferred-citation:
+  type: article
+  title: "From examinations to consultations: a physician-reviewed Japanese benchmark for large language models in traditional Kampo medicine"
+  authors:
+    - family-names: "Takata"
+      given-names: "Hideaki"
+      orcid: "https://orcid.org/0009-0004-4269-0692"
+    - family-names: "Harada"
+      given-names: "Yoshinao"
+      orcid: "https://orcid.org/0000-0001-7760-138X"
+    - family-names: "Inoue"
+      given-names: "Hiroki"
+      orcid: "https://orcid.org/0009-0002-8611-4844"
+    - family-names: "Uneda"
+      given-names: "Kazushi"
+      orcid: "https://orcid.org/0000-0002-9660-142X"
+    - family-names: "Yoshino"
+      given-names: "Tetsuhiro"
+      orcid: "https://orcid.org/0000-0001-6172-1926"
+    - family-names: "Nogami"
+      given-names: "Tatsuya"
+      orcid: "https://orcid.org/0000-0002-9724-4356"
+  journal: "TBD"  # Update when paper is submitted/published
+  year: 2026
+  status: "in-preparation"  # Update to "submitted", "accepted", or "published" as appropriate

@@ -1,0 +1,26 @@
+# KampoBench (simple-evals derivative) requirements
+
+# 評価対象・採点者となる3社のSDK（いずれかのみ使う場合も、import のために必要）
+openai>=1.44.0          # OpenAI（gpt-5 系）。測定時は 2.4.0
+anthropic>=0.40.0       # Anthropic（Claude 系）。測定時は 0.71.0
+google-genai>=1.0.0     # Google（Gemini 系）。測定時は 1.68.0
+
+# 実行と集計
+blobfile>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+jinja2>=3.1.0
+tqdm>=4.65.0
+requests>=2.31.0        # common.py
+
+# 同梱する他ベンチマーク用（KampoBench の実行には不要）
+scipy>=1.11.0           # drop_eval.py
+# human-eval             # humaneval_eval.py（必要な場合のみ）
+
+# 任意
+tabulate>=0.9.0         # CLI の表示整形
+
+# 開発用（任意）
+# black>=23.0.0
+# ruff>=0.1.0
+# pytest>=7.0.0

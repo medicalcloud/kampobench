@@ -1,0 +1,16 @@
+# データは Zenodo で別途配布する。ここには置かない。
+jsonl/kampobench_pilot_samples*
+jsonl/*.jsonl
+jsonl/*.csv
+jsonl/xlsxs/
+
+# 測定結果・キャッシュ
+tmp/
+.env
+
+__pycache__/
+*.pyc
+.~lock.*#
+~$*
+*.bak
+.DS_Store

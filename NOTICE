@@ -1,0 +1,26 @@
+This project derives from openai/simple-evals (MIT).
+Upstream: https://github.com/openai/simple-evals (MIT)
+
+Original copyright (c) 2024 OpenAI.
+Modifications copyright (c) 2025 Takata Hideaki.
+
+Summary of modifications:
+- healthbench_eval.py: Added the KampoBench subset; record stop_reason so truncated
+  responses can be counted; made get_usage_dict tolerant of the three providers'
+  differing `usage` shapes.
+- sampler/claude_sampler.py: Allow omitting `temperature` (newer Claude models reject it).
+- sampler/gemini_sampler.py: Default temperature 0.0; report finish_reason.
+- sampler/responses_sampler.py: Report `status` / `incomplete_details`.
+- simple_evals.py: Model registry updated to current models; `--grader` to choose the
+  grading model; `--no-cache`; results routed by cost tier and grader.
+- grade_saved.py (new): Re-grade saved responses with a different grader, without
+  regenerating the responses.
+- response_cache.py (new): Cache API responses on disk so a run interrupted by a quota
+  limit can resume without repeating paid calls.
+- result_paths.py (new), aggregate_results.py (new): Output routing and result aggregation.
+
+Licensing note:
+- Code is licensed under MIT (see LICENSE).
+- Dataset files under sevals/jsonl may be licensed separately; see README and DATA_LICENSE.md for details.
+
+SPDX-License-Identifier: MIT
