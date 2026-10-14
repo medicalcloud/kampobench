@@ -57,6 +57,8 @@ preferred-citation:
     - family-names: "Nogami"
       given-names: "Tatsuya"
       orcid: "https://orcid.org/0000-0002-9724-4356"
-  journal: "TBD"  # Update when paper is submitted/published
+  journal: "medRxiv"
+  doi: "10.64898/2026.10.07.26365005"
+  url: "https://www.medrxiv.org/content/10.64898/2026.10.07.26365005"
   year: 2026
-  status: "in-preparation"  # Update to "submitted", "accepted", or "published" as appropriate
+  status: "preprint"  # Update to the journal article when it is published

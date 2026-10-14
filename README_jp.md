@@ -11,6 +11,7 @@ KampoBench は、OpenAI の **HealthBench** を基に、日本語の**漢方（K
 
 | | |
 |---|---|
+| 論文（プレプリント） | https://doi.org/10.64898/2026.10.07.26365005（medRxiv） |
 | データセット | https://doi.org/10.5281/zenodo.23129442（Zenodo） |
 | ライセンス | CC BY 4.0（`DATA_LICENSE.md`） |
 | 来歴 | `jsonl/kampobench_provenance_jp.md` |
@@ -187,7 +188,12 @@ python -m sevals.simple_evals --eval=healthbench_consensus --model=<モデル名
 
 ## 引用（Citation）
 
-研究で利用する場合は、後日追加予定の `CITATION.cff` または本 README の引用情報をご参照ください。
+研究で利用する場合は、データセットをその DOI（10.5281/zenodo.23129442）で引用し、ソフトウェアと
+論文については `CITATION.cff` を参照してください。論文は現在プレプリントとして公開されています。
+
+Takata H, Harada Y, Inoue H, Uneda K, Yoshino T, Nogami T. From examinations to
+consultations: a physician-reviewed Japanese benchmark for large language models in
+traditional Kampo medicine. medRxiv. 2026. doi:10.64898/2026.10.07.26365005
 
 —
 

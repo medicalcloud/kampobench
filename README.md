@@ -13,6 +13,7 @@ distributed separately under CC BY 4.0.**
 
 | | |
 |---|---|
+| Paper (preprint) | https://doi.org/10.64898/2026.10.07.26365005 (medRxiv) |
 | Dataset | https://doi.org/10.5281/zenodo.23129442 (Zenodo) |
 | License | CC BY 4.0 (`DATA_LICENSE.md`) |
 | Provenance | `jsonl/kampobench_provenance.md` |
@@ -204,7 +205,11 @@ See `CONTRIBUTING.md` for the development workflow and the rules for pull reques
 
 If you use this work in research, cite the dataset by its DOI
 (10.5281/zenodo.23129442) and see `CITATION.cff` for the software and the accompanying
-paper.
+paper. The paper is currently available as a preprint:
+
+Takata H, Harada Y, Inoue H, Uneda K, Yoshino T, Nogami T. From examinations to
+consultations: a physician-reviewed Japanese benchmark for large language models in
+traditional Kampo medicine. medRxiv. 2026. doi:10.64898/2026.10.07.26365005
 
 —
 
